@@ -1,7 +1,4 @@
 .lm {
-  display: flex;
-  justify-content: center;
-  align-items: center;
     // .x{
     //   width: 20%;
     //   min-width: 280px; 
@@ -12,15 +9,12 @@
     left: 0;
     .adminprofile{
       margin: 20px 0;
-      display: flex;  
       gap: 20px;
       align-self: left;
-      display: flex;
       justify-content: center;
       align-items: center;
       .namesurname{
         max-width: 150px;
-        display: flex;
         flex-direction: column;
         gap: 10px;
       }

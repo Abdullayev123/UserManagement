@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-/>
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
 </head>
 <body>
-
     <div class="lm">
         <div class="x"></div>
         <div class="sidebar">
@@ -26,8 +25,8 @@
                     </div>
                 </div>
                     <ul>
-                        <li class="active"><a href="#"><i class="fa-brands fa-microsoft"></i> Dashboard</a></li>
-                        <li><a href="#"><i class="fa-solid fa-money-bill-wave"></i> Payroll Management</a></li>
+                        <li><a href="#"><i class="fa-brands fa-microsoft"></i> Dashboard</a></li>
+                        <li class="active"><a href="#"><i class="fa-solid fa-money-bill-wave"></i> Payroll Management</a></li>
                         <li><a href="#"><i class="fa-solid fa-file-lines"></i>   Contracts</a></li>
                         <li><a href="#"><i class="fa-solid fa-users"></i> Employees</a></li>
                         <li><i class="fa-solid fa-clipboard-user"></i> Attendence</a></li>
@@ -58,7 +57,7 @@
                 </div>
             </div>
             <div class="container">
-                <h4>Dashboard</h4>
+                <h4>Payroll Management</h4>
                 <div class="cards">
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
@@ -97,35 +96,32 @@
                       </div>
 
                 </div>
-
-                <div class="dashboardtableemployees">
-                    <h1>Employees</h1>
-                    <div class="dte">
-                        <img src="./assets/images/Ellipse 9.png" alt="">
-                        <div class="nameandsalary">
-                            <h4>Aman</h4>
-                            <p>Salary: 10 000$</p>
-                        </div>
-                        <div class="paidorno">
-
-                        </div>
-                    </div>
-                    <div class="dte">
-                        <img src="./assets/images/Ellipse 11.png" alt="">
-                        <div class="nameandsalary">
-                            <h4>Aman</h4>
-                            <p>Salary: 10 000$</p>
-                        </div>
-                        <div class="paidorno">
-
-                        </div>
-                    </div>
-                </div>
             </div>
 
         </div>
+        <div class="table">
+            <table>
+                <tr>
+                    <th>Employee Id</th>
+                    <th>Salary</th>
+                    <th>Bonus</th>
+                    <th>Deductions</th>
+                    <th>Month</th>
+                    <th>Year</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>Alfreds Futterkiste</td>
+                    <td>Maria Anders</td>
+                    <td>Germany</td>
+                    <td>Alfreds Futterkiste</td>
+                    <td>Maria Anders</td>
+                    <td>Germany</td>
+                    <td><button style="background-color: red;" class="Recall">Delete</button></td>
+                </tr>
+            </table>
+        </div>
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         var swiper = new Swiper(".mySwiper", {
