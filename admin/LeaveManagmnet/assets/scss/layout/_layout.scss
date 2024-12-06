@@ -20,7 +20,8 @@
       align-items: center;
       .namesurname{
         max-width: 150px;
-        display: flex;flex-direction: column;
+        display: flex;
+        flex-direction: column;
         gap: 10px;
       }
     }
@@ -85,8 +86,9 @@
           text-align: left;
           padding: 15px ;
           border-radius: 10px;
-          margin: 3px;
+          margin: 30px 0 ;
           font-size: 14px;
+          transition: 0.2s;
           &:hover{
             background-color: #FFC20E;
             color: black;
