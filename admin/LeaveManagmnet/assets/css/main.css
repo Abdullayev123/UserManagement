@@ -7,6 +7,7 @@
   user-select: none;
   transition: 0.2s;
   text-decoration: none;
+  box-sizing: border-box;
 }
 
 .btn {
