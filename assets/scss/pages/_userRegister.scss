@@ -1,4 +1,4 @@
-.flex {
+.flex_Reg {
   display: flex;
 }
 .register {
@@ -111,5 +111,11 @@
         }
       }
     }
+  }
+}
+@media (max-width: 768px) {
+  .flex_Reg {
+    display: flex;
+    flex-direction: column;
   }
 }
