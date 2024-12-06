@@ -1,4 +1,4 @@
-.container{
+.container {
   max-width: 95%;
   margin: 0 auto;
 }
@@ -27,88 +27,67 @@
   height: 200px;
   margin-top: 20px;
   border-radius: 20px;
-  a{
+  a {
     color: #000;
     display: flex;
-    p{
+    p {
       font-size: 40px;
       font-weight: 900;
     }
   }
- 
-  i{
+
+  i {
     font-size: 70px;
     padding-right: 20px;
   }
 }
 
-
 .slider1,
-.slider5{
-  background-color: #FFC20E ;
+.slider5 {
+  background-color: #ffc20e;
   color: #000;
 }
-.table{
-}
+
 .slider2,
 .slider6,
-.slider5{
-  background-color: #253D90 ;
-  a{
+.slider5 {
+  background-color: #253d90;
+  a {
     color: #fff !important;
   }
 }
 .slider3,
-.slider7{
-  background-color: #3F861E ;
-  a{
-
+.slider7 {
+  background-color: #3f861e;
+  a {
     color: #fff !important;
   }
 }
-.slider4{
+.slider4 {
   background-color: black;
-  a{
-
+  a {
     color: #fff;
   }
 }
-<<<<<<< HEAD
-td, th {
-  border: none;
-  text-align: left;
-  padding: 20px ;
-  text-align: center;
-  button{
-      width: 100%;
-      padding: 10px 0px;
-      border-radius: 0.3rem;
-      color: white;
-      border: none;
-      cursor: pointer;
-      background-color: rgb(0, 0, 159);
-      -webkit-box-shadow: 2px 11px 24px -7px rgba(66, 68, 90, 1);
-      -moz-box-shadow: 2px 11px 24px -7px rgba(66, 68, 90, 1);
-      box-shadow: 2px 11px 24px -7px rgba(66, 68, 90, 1);
-  }
-}
-tr:nth-child(odd) {
-  background-color: #dddddd;
-=======
 
-.content{
-  .dashboardtableemployees{
+.content {
+  .dashboardtableemployees {
     background-color: white;
     border-radius: 20px;
     margin-top: 40px;
     gap: 30px;
     padding: 30px;
-    display: flex;justify-content: space;align-items: left;flex-direction: column;
-    .dte{
-      display: flex;justify-content: space-between;align-items: left;
-      width: 100%   ;
-      
-      .paidorno{
+    display: flex;
+    justify-content: space;
+    align-items: left;
+    flex-direction: column;
+    .dte {
+      display: flex;
+      justify-content: space-between;
+      align-items: left;
+      width: 100%;
+
+      .paidorno {
         height: 10px;
         width: 100px;
         background-color: green;
@@ -117,5 +96,4 @@ tr:nth-child(odd) {
       }
     }
   }
->>>>>>> 9cd064244017eff96b5cb034bb1788fe4b99c395
 }

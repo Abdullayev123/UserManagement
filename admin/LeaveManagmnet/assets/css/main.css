@@ -12,31 +12,7 @@
 body {
   background-color: #E3EDF9;
 }
-.table{
-  margin-left: 400px;
-  margin-top: 50px;
-}
-td, th {
-  border: none;
-  text-align: left;
-  padding: 20px ;
-  text-align: center;
-  button{
-      width: 100%;
-      padding: 10px 0px;
-      border-radius: 0.3rem;
-      color: white;
-      border: none;
-      cursor: pointer;
-      background-color: rgb(0, 0, 159);
-      -webkit-box-shadow: 2px 11px 24px -7px rgba(66, 68, 90, 1);
-      -moz-box-shadow: 2px 11px 24px -7px rgba(66, 68, 90, 1);
-      box-shadow: 2px 11px 24px -7px rgba(66, 68, 90, 1);
-  }
-}
-tr:nth-child(odd) {
-  background-color: #dddddd;
-}
+
 .btn {
   padding: 6px 10px;
   display: flex;
@@ -52,10 +28,6 @@ tr:nth-child(odd) {
   background-color: #253D90;
 }
 
-.lm {
-  justify-content: center;
-  align-items: center;
-}
 .lm .sidebar {
   position: fixed;
   top: 0;
@@ -72,16 +44,13 @@ tr:nth-child(odd) {
 }
 .lm .sidebar .adminprofile {
   margin: 20px 0;
-  display: flex;
   gap: 20px;
   align-self: left;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
 .lm .sidebar .adminprofile .namesurname {
   max-width: 150px;
-  display: flex;
   flex-direction: column;
   gap: 10px;
 }
@@ -229,7 +198,7 @@ tr:nth-child(odd) {
   font-size: 14px;
   color: #000;
   margin: 0;
-  padding: 0;
+  padding: 20px;
 }
 
 .swiper {
@@ -263,14 +232,14 @@ tr:nth-child(odd) {
 
 .slider1,
 .slider5 {
-  background-color: #FFC20E;
+  background-color: #ffc20e;
   color: #000;
 }
 
 .slider2,
 .slider6,
 .slider5 {
-  background-color: #253D90;
+  background-color: #253d90;
 }
 .slider2 a,
 .slider6 a,
@@ -280,7 +249,7 @@ tr:nth-child(odd) {
 
 .slider3,
 .slider7 {
-  background-color: #3F861E;
+  background-color: #3f861e;
 }
 .slider3 a,
 .slider7 a {
