@@ -2,10 +2,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  .x{
-    width: 20%;
-    min-width: 280px; 
-  }
+    // .x{
+    //   width: 20%;
+    //   min-width: 280px; 
+    // }
   .sidebar{
     position: fixed;
     top: 0;
@@ -99,6 +99,7 @@
 // CONTENT----------------------------------------------------------
 
   .content {
+    margin-left: 20%;
     background-color: red;
     width: 80%;
     min-width: 1100px;

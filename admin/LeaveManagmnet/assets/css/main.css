@@ -29,10 +29,6 @@
   justify-content: center;
   align-items: center;
 }
-.lm .x {
-  width: 20%;
-  min-width: 280px;
-}
 .lm .sidebar {
   position: fixed;
   top: 0;
@@ -123,6 +119,7 @@
   color: black;
 }
 .lm .content {
+  margin-left: 20%;
   background-color: red;
   width: 80%;
   min-width: 1100px;
